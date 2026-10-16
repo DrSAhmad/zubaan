@@ -1,5 +1,5 @@
 /* Zubaan service worker — offline-first: the app works without internet after first visit */
-const CACHE = "zubaan-v9";
+const CACHE = "zubaan-v11";
 const ASSETS = ["./", "./index.html", "./data.js", "./manifest.json", "./icon-192.png", "./icon-512.png"];
 self.addEventListener("install", e => {
   e.waitUntil(caches.open(CACHE).then(c => c.addAll(ASSETS)).then(() => self.skipWaiting()));

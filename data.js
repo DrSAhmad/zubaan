@@ -311,7 +311,59 @@ const LANGS = [
   {t:"Книга",r:"kniga",en:"Book",ur:"کتاب",cat:"study"},{t:"Школа",r:"shkola",en:"School",ur:"اسکول",cat:"study"},
   {t:"Любовь",r:"lyubov'",en:"Love",ur:"محبت",cat:"feelings"},{t:"Деньги",r:"den'gi",en:"Money",ur:"پیسہ",cat:"daily"},
   {t:"Время",r:"vremya",en:"Time",ur:"وقت",cat:"daily"},{t:"День",r:"den'",en:"Day",ur:"دن",cat:"time"},
-  {t:"Человек",r:"chelovek",en:"Person",ur:"شخص",cat:"people"},{t:"Дом",r:"dom",en:"House",ur:"گھر",cat:"home"}]}
+  {t:"Человек",r:"chelovek",en:"Person",ur:"شخص",cat:"people"},{t:"Дом",r:"dom",en:"House",ur:"گھر",cat:"home"}]},
+{id:"tr",name:"Turkish",native:"Türkçe",flag:"🇹🇷",dir:"ltr",tts:"tr-TR",
+ script:{title:"Turkish Alphabet",desc:"29 letters — Latin-based with 6 extra (ç ğ ı ö ş ü). Spoken by 85M+ people in Turkey and Central Asia.",sample:"Aa Bb Cc Çç Dd Ee Ff Gg Ğğ Hh Iı İi Jj Kk Ll Mm Nn Oo Öö Pp Rr Ss Şş Tt Uu Üü Vv Yy Zz"},
+ phrases:[
+  {t:"Merhaba",r:"merhaba",en:"Hello",ur:"ہیلو / سلام"},
+  {t:"Teşekkür ederim",r:"teşekkür ederim",en:"Thank you",ur:"شکریہ"},
+  {t:"Evet",r:"evet",en:"Yes",ur:"جی ہاں"},
+  {t:"Hayır",r:"hayır",en:"No",ur:"نہیں"},
+  {t:"Lütfen",r:"lütfen",en:"Please",ur:"براہ کرم"},
+  {t:"Hoşça kal",r:"hoşça kal",en:"Goodbye",ur:"خدا حافظ"},
+  {t:"Günaydın",r:"günaydın",en:"Good morning",ur:"صبح بخیر"},
+  {t:"Nasılsın?",r:"nasılsın?",en:"How are you?",ur:"آپ کیسے ہیں؟"},
+  {t:"Seni seviyorum",r:"seni seviyorum",en:"I love you",ur:"میں تم سے پیار کرتا ہوں"},
+  {t:"Affedersin",r:"affedersin",en:"Excuse me",ur:"معاف کیجیے"}],
+ numbers:[
+  {t:"Bir",r:"bir",en:"One",ur:"ایک"},{t:"İki",r:"iki",en:"Two",ur:"دو"},
+  {t:"Üç",r:"üç",en:"Three",ur:"تین"},{t:"Dört",r:"dört",en:"Four",ur:"چار"},
+  {t:"Beş",r:"beş",en:"Five",ur:"پانچ"},{t:"Altı",r:"altı",en:"Six",ur:"چھ"},
+  {t:"Yedi",r:"yedi",en:"Seven",ur:"سات"},{t:"Sekiz",r:"sekiz",en:"Eight",ur:"آٹھ"},
+  {t:"Dokuz",r:"dokuz",en:"Nine",ur:"نو"},{t:"On",r:"on",en:"Ten",ur:"دس"}],
+ vocab:[
+  {t:"Su",r:"su",en:"Water",ur:"پانی",cat:"daily"},{t:"Yemek",r:"yemek",en:"Food",ur:"کھانا",cat:"daily"},
+  {t:"Arkadaş",r:"arkadaş",en:"Friend",ur:"دوست",cat:"people"},{t:"Aile",r:"aile",en:"Family",ur:"خاندان",cat:"people"},
+  {t:"Kitap",r:"kitap",en:"Book",ur:"کتاب",cat:"study"},{t:"Okul",r:"okul",en:"School",ur:"اسکول",cat:"study"},
+  {t:"Aşk",r:"aşk",en:"Love",ur:"محبت",cat:"feelings"},{t:"Para",r:"para",en:"Money",ur:"پیسہ",cat:"daily"},
+  {t:"Zaman",r:"zaman",en:"Time",ur:"وقت",cat:"daily"},{t:"Gün",r:"gün",en:"Day",ur:"دن",cat:"time"},
+  {t:"İnsan",r:"insan",en:"Person",ur:"شخص",cat:"people"},{t:"Ev",r:"ev",en:"House",ur:"گھر",cat:"home"}]},
+{id:"uz",name:"Uzbek",native:"O'zbekcha",flag:"🇺🇿",dir:"ltr",tts:"uz-UZ",
+ script:{title:"Uzbek Alphabet",desc:"Latin-based since 1993 (Cyrillic also still used). Spoken by 35M+ people — Central Asia's most-spoken Turkic language.",sample:"Aa Bb Dd Ee Ff Gg Hh Ii Jj Kk Ll Mm Nn Oo Pp Qq Rr Ss Tt Uu Vv Xx Yy Zz O'o G'g Sh Ch Ng"},
+ phrases:[
+  {t:"Salom",r:"salom",en:"Hello",ur:"ہیلو / سلام"},
+  {t:"Rahmat",r:"rahmat",en:"Thank you",ur:"شکریہ"},
+  {t:"Ha",r:"ha",en:"Yes",ur:"جی ہاں"},
+  {t:"Yo'q",r:"yo'q",en:"No",ur:"نہیں"},
+  {t:"Iltimos",r:"iltimos",en:"Please",ur:"براہ کرم"},
+  {t:"Xayr",r:"xayr",en:"Goodbye",ur:"خدا حافظ"},
+  {t:"Xayrli tong",r:"xayrli tong",en:"Good morning",ur:"صبح بخیر"},
+  {t:"Qalaysiz?",r:"qalaysiz?",en:"How are you?",ur:"آپ کیسے ہیں؟"},
+  {t:"Seni sevaman",r:"seni sevaman",en:"I love you",ur:"میں تم سے پیار کرتا ہوں"},
+  {t:"Kechirasiz",r:"kechirasiz",en:"Excuse me",ur:"معاف کیجیے"}],
+ numbers:[
+  {t:"Bir",r:"bir",en:"One",ur:"ایک"},{t:"Ikki",r:"ikki",en:"Two",ur:"دو"},
+  {t:"Uch",r:"uch",en:"Three",ur:"تین"},{t:"To'rt",r:"to'rt",en:"Four",ur:"چار"},
+  {t:"Besh",r:"besh",en:"Five",ur:"پانچ"},{t:"Olti",r:"olti",en:"Six",ur:"چھ"},
+  {t:"Yetti",r:"yetti",en:"Seven",ur:"سات"},{t:"Sakkiz",r:"sakkiz",en:"Eight",ur:"آٹھ"},
+  {t:"To'qqiz",r:"to'qqiz",en:"Nine",ur:"نو"},{t:"O'n",r:"o'n",en:"Ten",ur:"دس"}],
+ vocab:[
+  {t:"Suv",r:"suv",en:"Water",ur:"پانی",cat:"daily"},{t:"Ovqat",r:"ovqat",en:"Food",ur:"کھانا",cat:"daily"},
+  {t:"Do'st",r:"do'st",en:"Friend",ur:"دوست",cat:"people"},{t:"Oila",r:"oila",en:"Family",ur:"خاندان",cat:"people"},
+  {t:"Kitob",r:"kitob",en:"Book",ur:"کتاب",cat:"study"},{t:"Maktab",r:"maktab",en:"School",ur:"اسکول",cat:"study"},
+  {t:"Sevgi",r:"sevgi",en:"Love",ur:"محبت",cat:"feelings"},{t:"Pul",r:"pul",en:"Money",ur:"پیسہ",cat:"daily"},
+  {t:"Vaqt",r:"vaqt",en:"Time",ur:"وقت",cat:"daily"},{t:"Kun",r:"kun",en:"Day",ur:"دن",cat:"time"},
+  {t:"Odam",r:"odam",en:"Person",ur:"شخص",cat:"people"},{t:"Uy",r:"uy",en:"House",ur:"گھر",cat:"home"}]}
 ];
 
 /* ===== Language variants: British/American + international comparisons ===== */
